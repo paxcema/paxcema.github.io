@@ -1,1 +1,12 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.10.520"}}}
+{:deps {
+    org.clojure/clojurescript {:mvn/version "1.10.520"}
+
+    ;; we add :deps/manifest :deps as the repo itself 
+    ;; does not have a deps.edn of its own 
+    ;; (as per https://ask.clojure.org/index.php/8507/failure-on-github-import-via-deps)
+    teropa/hiccups {
+        :git/url "https://github.com/teropa/hiccups" 
+        :sha "8cdfb79ee30825aee932ff641f2f17db4513480f" 
+        :deps/manifest :deps} 
+    }
+}
