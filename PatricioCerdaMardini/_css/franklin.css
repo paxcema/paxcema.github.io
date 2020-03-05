@@ -270,3 +270,7 @@ code {
 .franklin-content .justified {
     text-align: justify;
 }
+
+.franklin-content p {
+    text-align: justify;
+}
