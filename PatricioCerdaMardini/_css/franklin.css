@@ -191,6 +191,12 @@ html {
     padding-left: 0%;
 }
 
+.franklin-content img[alt="full_width"]{
+    width: 100%;
+    padding-left: 0%;
+    border: 1px solid black;
+}
+
 .franklin-content .img-small img {
     width: 50%;
     text-align: center;

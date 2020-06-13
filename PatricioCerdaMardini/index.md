@@ -19,4 +19,5 @@ In this website you can find links to the research projects I've worked on, as w
 
 ### News
 
+- [May 30, 2020] Our [paper](https://arxiv.org/abs/2006.00697) has been accepted at ACL WiNLP 2020.
 - [March 5, 2020] Website goes live!
