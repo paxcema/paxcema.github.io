@@ -5,7 +5,7 @@ The website_* must be defined for the RSS to work
 ------------------------------------------------------->
 @def website_title = "Patricio Cerda Mardini"
 @def website_descr = "Patricio Cerda's personal webpage"
-@def website_url   = "https://pcerdam.github.io/"
+@def website_url   = "https://paxcema.github.io/"
 
 @def author = "Patricio Cerda Mardini"
 
