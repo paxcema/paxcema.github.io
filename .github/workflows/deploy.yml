@@ -13,7 +13,7 @@ jobs:
         persist-credentials: false
 
     - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v4
+      uses: JamesIves/github-pages-deploy-action@releases/v4  # Updated to v4 since Jan24
       with:
         ACCESS_TOKEN: ${{ secrets.FRANKLIN }}
         BRANCH: master # The branch the action should deploy to.
