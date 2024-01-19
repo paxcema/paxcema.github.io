@@ -6,125 +6,171 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
-  <link rel="stylesheet" href="/css/franklin.css">
-  <link rel="stylesheet" href="/css/minimal-mistakes.css">
-  <link rel="stylesheet" href="/css/adjust.css">
-  <!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-  <![endif]-->
-  <!-- start custom head snippets -->
-  <link rel="icon" href="/assets/favicon.png">
-  <!--  {{isdef title}} <title>{{fill title}}</title>  {{end}} -->
-   <title>Patricio Cerda Mardini</title> 
-  <!-- insert favicons. use https://realfavicongenerator.net/ -->
-  <!-- end custom head snippets -->
-</head>
-<body class="layout--single">
-  <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/">Patricio Cerda Mardini</a>
-        <ul class="visible-links">
-          <li class="masthead__menu-item"><a href="/research/" >Research</a></li>
-          <li class="masthead__menu-item"><a href="/blog/" >Blog</a></li>
-        </ul>
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://kit.fontawesome.com/32063ccfe2.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/minimal-mistakes.css">
+    <link rel="stylesheet" href="/css/adjust.css">
+    <!--[if IE ]>
+    <style>
+      /* old IE unsupported flexbox fixes */
+      .greedy-nav .site-title {
+        padding-right: 3em;
+      }
+      .greedy-nav button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+      }
+    </style>
+    <![endif]-->
+    <!-- start custom head snippets -->
+    <!-- link rel="icon" href="/assets/favicon.png">
+    <!--  {{isdef title}} <title>{{fill title}}</title>  {{end}} -->
+    <title>PCM's website</title> 
+    <!-- insert favicons. use https://realfavicongenerator.net/ -->
+    <!-- Custom as of 19/1/24-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end custom head snippets -->
+  </head>
 
-  <div class="initial-content">
-    <div id="main" role="main">
-      <div class="sidebar sticky">
-        <div itemscope itemtype="https://schema.org/Person">
-          <div class="author__avatar">
-            <img src="/assets/images/profile.jpg" alt="pcerdam" itemprop="image">
-          </div>
-          <div class="author__content">
-            <h3 class="author__name" itemprop="name"></h3>
-            <p class="author__bio" itemprop="description"></p>
-          </div>
-          <div class="author__urls-wrapper">
-            <button class="btn btn--inverse">Follow</button>
-            <ul class="author__urls social-icons">
-              <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-                <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Santiago, Chile</span></li>
-              <li><a href="https://twitter.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-              <li><a href="https://github.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+  <body class="layout--single">
+    <div class="masthead">
+      <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+          <nav id="site-nav" class="greedy-nav">
+            <a class="site-title" href="/">Patricio Cerda-Mardini</a>
+            <ul class="visible-links">
+              <li class="masthead__menu-item"><a href="/research/" >Research</a></li>
+              <li class="masthead__menu-item"><a href="/software/" >Software</a></li>
+              <li class="masthead__menu-item"><a href="/blog/" >Blog</a></li>
             </ul>
-          </div>
+            <button class="greedy-nav__toggle hidden" type="button">
+              <span class="visually-hidden">Toggle menu</span>
+              <div class="navicon"></div>
+            </button>
+            <ul class="hidden-links hidden"></ul>
+          </nav>
         </div>
       </div>
-
-<!-- Content appended here -->
-<div class="franklin-content"><h2 id="about"><a href="#about">About</a></h2>
-<div class="portada"><img src="/assets/images/crop.jpg#portada" alt="Maihue Lake, Chile" /> <em>Maihue Lake, Chile</em></div>
-<h4></h4>
-<div class="justified">Hello&#33; I am a Machine Learning Engineer, currently helping democratize ML at <a href="https://www.mindsdb.com">MindsDB</a>. I completed my master degree in computer science in the <a href="http://ialab.ing.puc.cl">IA Lab</a> at PUC Chile. My main areas of research are AutoML, cognitive robotics, and recommender systems.</p>
-<p>My bachelor&#39;s degree is in software engineering. In the past, I've worked at <a href="https://www.cinisoftware.cl">CINI Software</a> as a full stack engineer, and interned as a machine learning engineer at <a href="https://www.ey.com/es_cl/eymetricarts">EY Metric Arts&#39;s</a> video analytics team.</p>
-<p>In this website you can find links to the research projects I&#39;ve worked on, as well as a blog where I&#39;ll post content on machine learning research and software engineering stuff. Enjoy&#33;</div>
-<h3 id="news"><a href="#news">News</a></h3>
-<ul>
-<li><p>&#91;August 19, 2020&#93; Our paper "CuratorNet: Visually-aware Recommendation of Art Images" has been accepted at ACM RecSys ComplexRec.</p>
-</li>
-<li><p>&#91;July 13, 2020&#93; Joined <a href="https://www.mindsdb.com">MindsDB</a> to work full-time as a Machine Learning Research Engineer.</p>
-</li>
-<li><p>&#91;May 30, 2020&#93; Our <a href="https://arxiv.org/abs/2006.00697">paper</a> "Translating Natural Language Instructions for Behavioral Robot Navigation with a Multi-Head Attention Mechanism" has been accepted at ACL WiNLP.</p>
-</li>
-<li><p>&#91;March 5, 2020&#93; Website goes live&#33;</p>
-</li>
-</ul>
-<div class="page-foot">
-  <div class="copyright">
-    &copy; Patricio Cerda Mardini. Last modified: August 29, 2020. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>.
-  </div>
-</div>
-</div><!-- CONTENT ENDS HERE -->
-
-      </div> <!-- closure of main -->
-    </div>   <!-- closure of class initial--content -->
-
-    <div class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-        <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-          <ul class="social-icons">
-            <li><strong>Follow:</strong></li>
-            <li><a href="https://twitter.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-            <li><a href="https://github.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-          </ul>
-        </div>
-        <div class="page__footer-copyright">&copy; Patricio Cerda Mardini. Powered by <a href="https://github.com/tlienart/Franklin.jl">Franklin</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-      </footer>
     </div>
 
-    <script src="/libs/minimal-mistakes/main.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <div class="initial-content">
+      <div id="main" role="main">
+        <div class="sidebar sticky">
+          <div itemscope itemtype="https://schema.org/Person">
+            <div class="author__avatar">
+              <img src="/assets/images/profile.png" alt="It's me, Patricio!" itemprop="image">
+            </div>
+            <div class="author__content">
+              <h3 class="author__name" itemprop="name"></h3>
+              <p class="author__bio" itemprop="description"></p>
+            </div>
+            <div class="author__urls-wrapper">
+              <button class="btn btn--inverse">Follow</button>
+              <ul class="author__urls social-icons">
+                <!-- li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+                  <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Depends</span></li -->
+                <li><a href="https://twitter.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> X / Twitter</a></li>
+                <li><a href="https://github.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+                <li><a href="https://linkedin.com/in/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?hl=en&user=iSY0Kj8AAAAJ&view_op=list_works&sortby=pubdate" rel="nofollow noopener noreferrer"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
+  <!-- Content appended here -->
+  <div class="franklin-content"><h2 id="about"><a href="#about">About</a></h2>
+
+    <div class="portada"><img src="/assets/images/crop.jpg#portada" alt="Maihue Lake, Chile" /> <em>Maihue Lake, Chile</em></div>
+    <h4></h4>
+
+    <div class="justified"><p>Hello&#33; I am a Machine Learning Research Engineer, currently working at <a href="https://www.mindsdb.com">MindsDB</a>, a seed-stage VC-backed startup focused on easy ML deployment.</p> 
+    <p>I completed my master's degree in computer science at PUC Chile's <a href="http://ialab.ing.puc.cl">IA Lab</a>. My main areas of research interest are AutoML, cognitive robotics, and recommender systems.</p>
+    <p>During my engineering bachelor&#39;s degree at <a href="https://www.ing.uc.cl">PUC Chile</a>, I majored in robotics with a minor on software engineering. In the past, I've worked at <a href="https://www.cinisoftware.cl">CINI Software</a> as a full stack engineer, and interned as a machine learning engineer at <a href="https://www.ey.com/es_cl/eymetricarts">EY Chile Metric Arts&#39;s</a> video analytics team.</p>
+    <p>In this website you can find links to projects I&#39;ve worked on, as well as a blog where I&#39;ll post content on machine learning research, software engineering, and any other random stuff I may feel like posting :) Welcome&#33;</p>
+    </div>
+
+  <h3 id="updates"><a href="#updates">Updates</a></h3>
+  <ul>
+  <!-- li><p>&#91;Month DD, YYYY&#93; TEMPLATE.</p-->
+
+  <h4 id="2024"><a href="#updates#2024">2024</a></h4>
+  <ul>
+  <li><p>&#91;January 17th&#93; Our paper <a href="https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-023-03819-w">"Determining the efficacy of a machine learning model for measuring periodontal bone loss"</a> has been published on BMC Oral Health.</p-->
+  </ul>
     
-    
+  <h4 id="2023"><a href="#updates#2023">2023</a></h4>
+  <ul>
+    Conference WebSummit
+  <li><p>&#91;August 30th&#93; Participated in ELC Annual 2023 conference as panelist on <a href="https://sfelc.com/annual2023/topics/latest-developments-in-applied-ai">"Latest Developments in Applied AI - from Cutting Edge Models to MLOps Platforms and How to Use Them"</a>.</p-->
+  <li><p>&#91;June 1st&#93; I gave a talk with Langchain's co-founder Harrison Chase on the topic of domain expert chatbots at the first ever MindsDB conference. <a href="https://www.youtube.com/watch?v=QrIEoexbtDo&t=782s">YouTube recording here.</a></p-->
+  </ul>
+
+  <h4 id="2022"><a href="#updates#2022">2022</a></h4>
+  <ul>
+  <li><p>&#91;September 21st&#93; I gave a talk at DataTalks.Club on ML at the data layer. <a href="https://www.youtube.com/live/hfIOh_r8NEE?si=LcIIAhRdqcY_PnNX">YouTube recording here</a>.</p-->
+  </ul>
+
+  <h4 id="2021"><a href="#updates#2021">2021</a></h4>
+  <ul>
+  <li><p>&#91;April 21st&#93; With the MindsDB ML team, we've presented two posters on <a href="https://pytorch.org/ecosystem/pted/2021">PyTorch Ecosystem Day 2021.</a> One on <a href="https://s3.amazonaws.com/assets.pytorch.org/pted2021/posters/I8.png">uncertainty estimation</a></p-->, and one on <a href="https://s3.amazonaws.com/assets.pytorch.org/pted2021/posters/H8.png">SQL-based ML workflows</a>, with a complementary talk/interview on <a href="https://www.youtube.com/live/tHYgd7aP8m0?si=2-txR0WLgPCNLPgi&t=103">YouTube</a>.
+  <li><p>&#91;April 13th&#93; Our IUI 2021 tutorial <a href="https://dl.acm.org/doi/10.1145/3397482.3450620">VisRec: A Hands-on Tutorial on Deep Learning for Visual Recommender Systems</a> is now live on <a href="https://www.youtube.com/watch?v=nRK0RB8OjGU&t=4661s">YouTube</a> (GitHub repo <a href="https://github.com/ialab-puc/VisualRecSys-Tutorial-IUI2021">here</a>).</p-->
+  <li><p>&#91;March 26th&#93; Successfully defended my master's thesis, titled <a href="https://repositorio.uc.cl/handle/11534/62512">"Understanding natural language directions for robotic indoor navigation".</a></p-->
+  </ul>
+
+  <h4 id="2020"><a href="#updates#2020">2020</a></h4>
+  <ul>
+  <li><p>&#91;August 19th&#93; Our paper <a href="https://arxiv.org/pdf/2009.04426.pdf">"CuratorNet: Visually-aware Recommendation of Art Images"</a> has been accepted at ACM RecSys ComplexRec.</p>
+  </li>
+  <li><p>&#91;July 13th&#93; Joined <a href="https://www.mindsdb.com">MindsDB</a> to work full-time as a Machine Learning Research Engineer.</p>
+  </li>
+  <li><p>&#91;May 30th&#93; Our paper <a href="https://arxiv.org/abs/2006.00697">"Translating Natural Language Instructions for Behavioral Robot Navigation with a Multi-Head Attention Mechanism"</a> has been accepted at ACL WiNLP.</p>
+  </li>
+  <li><p>&#91;March 5th&#93; Website goes live&#33;</p>
+  </li>
+  </ul>
+  <div class="page-foot">
+    <div class="copyright">
+      &copy; Patricio Cerda-Mardini. Last modified: January 19th, 2024. Built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>.
+    </div>
+  </div>
+  </div><!-- CONTENT ENDS HERE -->
+
+        </div> <!-- closure of main -->
+      </div>   <!-- closure of class initial--content -->
+
+      <div class="page__footer">
+        <footer>
+          <!-- start custom footer snippets -->
+          <!-- end custom footer snippets -->
+          <div class="page__footer-follow">
+            <ul class="social-icons">
+              <li><strong>Follow:</strong></li>
+              <li><a href="https://twitter.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> X / Twitter</a></li>
+              <li><a href="https://github.com/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+              <li><a href="https://linkedin.com/in/paxcema" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="page__footer-copyright">&copy; Patricio Cerda Mardini. Powered by <a href="https://github.com/tlienart/Franklin.jl">Franklin</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+        </footer>
+      </div>
+
+      <script src="/libs/minimal-mistakes/main.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+     
   </body>
+
 </html>
